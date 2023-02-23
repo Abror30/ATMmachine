@@ -9,9 +9,7 @@ namespace ATMMachine
     class ATM
     {
         public  string EmployeeName { get; set; }
-        public  string Address { get; set; }
-        //public static int AccountNumber { get; set; }
-        //public static int WithDrawMoney { get; set; }
+        public  string Address { get; set;}
         public int TopUpMoney { get; set; }
         public  double SomoniAccountMoney { get; set; }
         public  double YuanAccount { get; set; }
@@ -20,8 +18,8 @@ namespace ATMMachine
 
         public ATM()
         {
-            EmployeeName = "Kamolov Abror Sherozovich";
-            Address = "Mekhrobod city";
+            EmployeeName = "Chuan Tong Yu";
+            Address = "Beijing";
             SomoniAccountMoney = 20000;
             YuanAccount = 10000;
             CurrencyExchange = 1.7;
