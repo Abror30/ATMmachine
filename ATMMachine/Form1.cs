@@ -29,7 +29,8 @@ namespace ATMMachine
             listBox1.Items.Add(atmMachine.YuanAccount);
             listBox1.Items.Add(atmMachine.CurrencyExchange);
 
-
+            
+            // displaying code...
             listBox1.Items.Add(atmMachine.CardNumber(txtBox1Account.Text));
             listBox1.Items.Add(atmMachine.MoneyWithdraw(double.Parse(txt2BoxMoneyWithdraw.Text)));
             listBox1.Items.Add(atmMachine.MoneyTopUp(double.Parse(txtBox3TopUpmoney.Text)));
